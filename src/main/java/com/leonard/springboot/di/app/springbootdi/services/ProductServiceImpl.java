@@ -15,7 +15,7 @@ public class ProductServiceImpl implements ProductService{
     private ProductRepository repository;
 
     //cuando inyectamos con constructor no necesitamos poner el autowired
-    public ProductServiceImpl(@Qualifier("productFoo") ProductRepository repository) {
+    public ProductServiceImpl(@Qualifier("productList") ProductRepository repository) {
         this.repository = repository;
     }
 
