@@ -2,14 +2,12 @@ package com.leonard.springboot.di.app.springbootdi.repositories;
 
 import java.util.Collections;
 import java.util.List;
-
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
 import com.leonard.springboot.di.app.springbootdi.models.Product;
 
 @Repository("productFoo")
-public class PeoductRepositoryFoo implements ProductRepository{
+public class ProductRepositoryFoo implements ProductRepository{
 
     @Override
     public List<Product> findAll() {
