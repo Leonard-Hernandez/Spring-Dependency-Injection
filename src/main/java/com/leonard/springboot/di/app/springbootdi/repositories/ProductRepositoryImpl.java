@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
 import com.leonard.springboot.di.app.springbootdi.models.Product;
 
 //@RequestScope
-@Primary
 @Repository("productList")
 public class ProductRepositoryImpl implements ProductRepository{
 
